@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+</head>
+<body>
+	<table border="6">
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th>SURNAME</th>
+			<th>REGD NO</th>
+			<th>MOBILE NO</th>
+			<th>BRANCH</th>
+			<th>EMAIL</th>
+		</tr>
+		{% for r in register %}
+		<tr>
+			<td>{{r.id}}</td>
+			<td>{{r.name}}</td>
+			<td>{{r.surname}}</td>
+			<td>{{r.regd_no}}</td>
+			<td>{{r.mobile}}</td>
+			<td>{{r.branch}}</td>
+			<td>{{r.email}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>

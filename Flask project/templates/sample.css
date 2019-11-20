@@ -1,0 +1,15 @@
+#s {
+	color :red;
+}
+.same {
+	color :green;
+}
+body {
+	background: lightgreen;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-indent: center;
+}

@@ -1,0 +1,11 @@
+body{
+	background:indigo;
+}
+.container {
+	background:aqua;
+	width:50%;
+	margin:25%;
+	padding:2%;
+	box-shadow: 4px 4px 4px 4px black;
+	border-radius: 5%;
+}
